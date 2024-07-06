@@ -1,0 +1,45 @@
+.App {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(-20deg, #074055 0%, #030d10 100%);
+  min-height: 100vh;
+}
+
+a {
+  color: white;
+}
+
+.hide {
+  display: none;
+}
+
+.download-area {
+  width: 80%;
+  margin: 40px auto;
+}
+
+.download-area p {
+  text-align: center;
+}
+
+.social-lin-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.social-lin-wrap a {
+  display: block;
+  font-size: 30px;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.2);
+  min-height: 100px;
+}
+
+.logo-img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin-left: 0px !important;
+}
