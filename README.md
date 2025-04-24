@@ -34,7 +34,7 @@
 
 以下のコードの１```https://django-login-yggs.onrender.com```をDjangoプロジェクトをデプロイしたURLに変更してください。　
 
-[Django](https://github.com/NK-kimiya/VR_Interaction_API)　
+[Djangoプロジェクト](https://github.com/NK-kimiya/VR_Interaction_API)　
 
 ※現在```https://django-login-yggs.onrender.com/api/users/```では、ホスティングされていません。
 
