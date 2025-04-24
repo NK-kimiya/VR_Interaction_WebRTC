@@ -82,6 +82,8 @@ myPeer = new Peer({
             });
 ```
 
+開発時に仕様を試すために使用したICEサーバー：[xirsys](https://xirsys.com/)
+
 
 ### 連携プロジェクト
 
