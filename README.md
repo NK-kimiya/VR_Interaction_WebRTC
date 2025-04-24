@@ -34,6 +34,8 @@
 
 以下のコードの１```https://django-login-yggs.onrender.com```をDjangoプロジェクトをデプロイしたURLに変更してください。　
 
+[Django](https://github.com/NK-kimiya/VR_Interaction_API)　
+
 ※現在```https://django-login-yggs.onrender.com/api/users/```では、ホスティングされていません。
 
 ```
@@ -52,3 +54,21 @@ const response = await axios.post('https://django-login-yggs.onrender.com/api/us
 ```
 const socket = io('https://trial-app-comu.onrender.com/video_chat_socket');
 ```
+
+[Expressプロジェクト](https://github.com/NK-kimiya/VR_Interaction_signallingserver)　
+
+### 連携プロジェクト
+
+📁[VR_Interaction_API(Django)](https://github.com/NK-kimiya/VR_Interaction_API)　
+
+-Reactでカウントの作成、ログイン処理のAPI　
+
+-VRでユーザーIDを通したログイン処理のAPI　
+
+📁[VR_Interaction_UnityOpenXR(Unity)](https://github.com/NK-kimiya/VR_Interaction_UnityOpenXR)　
+
+-MetaQuest2を使用したVR空間のアバター操作　
+
+📁 [VR_Interaction_signallingserver(Express)](https://github.com/NK-kimiya/VR_Interaction_signallingserver)　　
+
+-ReactプロジェクトでWebRTCを実装する際のシグナリングサーバー
