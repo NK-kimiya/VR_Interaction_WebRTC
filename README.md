@@ -32,7 +32,7 @@
 
 #### Login.js
 
-以下のコードの"https://django-login-yggs.onrender.com"をDjangoプロジェクトをデプロイしたURLに変更してください。　
+以下のコードの１```https://django-login-yggs.onrender.com```をDjangoプロジェクトをデプロイしたURLに変更してください。　
 
 ※現在```https://django-login-yggs.onrender.com/api/users/```では、ホスティングされていません。
 
