@@ -27,3 +27,28 @@
 
 - `React`, `socket.io-client`, `peerjs`
 - `FontAwesome`（ビデオ・マイクアイコンなどUI向け）
+
+### 🔧デプロイ時の注意(APIエンドポイントの切り替え)
+
+#### Login.js
+
+以下のコードの"https://django-login-yggs.onrender.com"をDjangoプロジェクトをデプロイしたURLに変更してください。　
+
+※現在```https://django-login-yggs.onrender.com/api/users/```では、ホスティングされていません。
+
+```
+const response = await axios.post('https://django-login-yggs.onrender.com/api/users/', {
+                username: name,
+                password: password,
+                avatart_number: avatar_number
+            });
+```
+
+#### VideoChat.js 
+
+以下のコード```https://trial-app-comu.onrender.com/```をExpressプロジェクトをデプロイしたURLに変更してください。　
+
+※現在```https://trial-app-comu.onrender.com/```では、ホスティングされていません。
+```
+const socket = io('https://trial-app-comu.onrender.com/video_chat_socket');
+```
