@@ -110,17 +110,12 @@ const VideoChat = (props) => {
                     //{ urls: 'stun:stun.l.google.com:19302' }
                     //]
                     iceServers: [{
-                        urls: ["stun:ntk-turn-2.xirsys.com"]
+                        urls: [""]
                     }, {
-                        username: "m557bDU3Benap-5d7xCv06usKdqxOnj3fftLNnlo3wBeXOFabXtRclzQabg9uT-YAAAAAGYJGThLaW1peWFzdQ==",
-                        credential: "66824fbc-ef35-11ee-8b68-0242ac120004",
+                        username: "",
+                        credential: "",
                         urls: [
-                            "turn:ntk-turn-2.xirsys.com:80?transport=udp",
-                            "turn:ntk-turn-2.xirsys.com:3478?transport=udp",
-                            "turn:ntk-turn-2.xirsys.com:80?transport=tcp",
-                            "turn:ntk-turn-2.xirsys.com:3478?transport=tcp",
-                            "turns:ntk-turn-2.xirsys.com:443?transport=tcp",
-                            "turns:ntk-turn-2.xirsys.com:5349?transport=tcp"
+       
                         ]
                     }]
                 }
