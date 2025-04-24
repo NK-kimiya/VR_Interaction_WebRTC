@@ -57,6 +57,32 @@ const socket = io('https://trial-app-comu.onrender.com/video_chat_socket');
 
 [Expressプロジェクト](https://github.com/NK-kimiya/VR_Interaction_signallingserver)　
 
+## WebRTCの実装のための記述　
+
+### VideoChat.js　
+
+ファイルの下記のコードの箇所に、契約したICEサーバーの情報を記載して下さい。　
+
+```
+myPeer = new Peer({
+                config: {
+                    //iceServers: [
+                    //{ urls: 'stun:stun.l.google.com:19302' }
+                    //]
+                    iceServers: [{
+                        urls: [""]
+                    }, {
+                        username: "",
+                        credential: "",
+                        urls: [
+       
+                        ]
+                    }]
+                }
+            });
+```
+
+
 ### 連携プロジェクト
 
 📁[VR_Interaction_API(Django)](https://github.com/NK-kimiya/VR_Interaction_API)　
